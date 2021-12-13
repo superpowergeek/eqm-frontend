@@ -1,0 +1,65 @@
+.react-resizable {
+  position: relative;
+}
+.react-resizable-handle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  box-sizing: border-box;
+  /* background-image: url('data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMnB0IiB2aWV3Qm94PSIwIDAgNTEyLjAxNiA1MTIiIHdpZHRoPSI1MTJwdCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMjQwIDQyNi42NzU3ODFoLTE4MS4zMzIwMzFjLTMyLjM2MzI4MSAwLTU4LjY2Nzk2OS0yNi4zMDQ2ODctNTguNjY3OTY5LTU4LjY2Nzk2OXYtMzA5LjMzMjAzMWMwLTMyLjM2MzI4MSAyNi4zMDQ2ODgtNTguNjY3OTY4NSA1OC42Njc5NjktNTguNjY3OTY4NWgzMDkuMzMyMDMxYzMyLjM2MzI4MSAwIDU4LjY2Nzk2OSAyNi4zMDQ2ODc1IDU4LjY2Nzk2OSA1OC42Njc5Njg1djE4MS4zMzIwMzFjMCA4LjgzMjAzMi03LjE2Nzk2OSAxNi0xNiAxNnMtMTYtNy4xNjc5NjgtMTYtMTZ2LTE4MS4zMzIwMzFjMC0xNC42OTkyMTktMTEuOTY4NzUtMjYuNjY3OTY5LTI2LjY2Nzk2OS0yNi42Njc5NjloLTMwOS4zMzIwMzFjLTE0LjY5OTIxOSAwLTI2LjY2Nzk2OSAxMS45Njg3NS0yNi42Njc5NjkgMjYuNjY3OTY5djMwOS4zMzIwMzFjMCAxNC42OTkyMTkgMTEuOTY4NzUgMjYuNjY3OTY5IDI2LjY2Nzk2OSAyNi42Njc5NjloMTgxLjMzMjAzMWM4LjgzMjAzMSAwIDE2IDcuMTY3OTY5IDE2IDE2cy03LjE2Nzk2OSAxNi0xNiAxNnptMCAwIi8+PHBhdGggZD0ibTQ5NiA1MTIuMDA3ODEyaC0xMzguNjY3OTY5Yy04LjgzMjAzMSAwLTE2LTcuMTY3OTY4LTE2LTE2IDAtOC44MzIwMzEgNy4xNjc5NjktMTYgMTYtMTZoMTIyLjY2Nzk2OXYtMTIyLjY2Nzk2OGMwLTguODMyMDMyIDcuMTY3OTY5LTE2IDE2LTE2czE2IDcuMTY3OTY4IDE2IDE2djEzOC42Njc5NjhjMCA4LjgzMjAzMi03LjE2Nzk2OSAxNi0xNiAxNnptMCAwIi8+PHBhdGggZD0ibTQ5NiA1MTIuMDA3ODEyYy00LjA5NzY1NiAwLTguMTkxNDA2LTEuNTU4NTkzLTExLjMwODU5NC00LjY5MTQwNmwtMTgxLjMzMjAzMS0xODEuMzM1OTM3Yy02LjI1LTYuMjUtNi4yNS0xNi4zODI4MTMgMC0yMi42MzI4MTNzMTYuMzgyODEzLTYuMjUgMjIuNjM2NzE5IDBsMTgxLjMzMjAzMSAxODEuMzMyMDMyYzYuMjUgNi4yNSA2LjI1IDE2LjM4MjgxMiAwIDIyLjYzNjcxOC0zLjEzNjcxOSAzLjEzMjgxMy03LjIzMDQ2OSA0LjY5MTQwNi0xMS4zMjgxMjUgNC42OTE0MDZ6bTAgMCIvPjwvc3ZnPg=='); */
+  background-position: bottom right;
+  padding: 0 3px 3px 0;
+}
+.react-resizable-handle-sw {
+  bottom: 0;
+  left: 0;
+  cursor: sw-resize;
+  transform: rotate(90deg);
+}
+.react-resizable-handle-se {
+  bottom: 0;
+  right: 0;
+  cursor: se-resize;
+}
+.react-resizable-handle-nw {
+  top: 0;
+  left: 0;
+  cursor: nw-resize;
+  transform: rotate(180deg);
+}
+.react-resizable-handle-ne {
+  top: 0;
+  right: 0;
+  cursor: ne-resize;
+  transform: rotate(270deg);
+}
+.react-resizable-handle-w,
+.react-resizable-handle-e {
+  top: 50%;
+  margin-top: -10px;
+  cursor: ew-resize;
+}
+.react-resizable-handle-w {
+  left: 0;
+  transform: rotate(135deg);
+}
+.react-resizable-handle-e {
+  right: 0;
+  transform: rotate(315deg);
+}
+.react-resizable-handle-n,
+.react-resizable-handle-s {
+  left: 50%;
+  margin-left: -10px;
+  cursor: ns-resize;
+}
+.react-resizable-handle-n {
+  top: 0;
+  transform: rotate(225deg);
+}
+.react-resizable-handle-s {
+  bottom: 0;
+  transform: rotate(45deg);
+}

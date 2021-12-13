@@ -1,0 +1,79 @@
+{
+  "name": "eqm_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/moment": "^1.3.13",
+    "@material-ui/core": "^4.10.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.54",
+    "@material-ui/pickers": "^3.2.10",
+    "@nivo/bar": "^0.61.1",
+    "@nivo/core": "^0.61.0",
+    "@nivo/generators": "^0.61.0",
+    "@nivo/line": "^0.61.1",
+    "@nivo/pie": "^0.61.1",
+    "@nivo/stream": "^0.61.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/lodash": "^4.14.149",
+    "@types/react-grid-layout": "^0.17.1",
+    "@types/react-redux": "^7.1.7",
+    "axios": "^0.19.2",
+    "clsx": "^1.1.0",
+    "connected-react-router": "^6.8.0",
+    "d3": "^5.15.1",
+    "decorate-component-with-props": "^1.1.0",
+    "draft-js": "^0.11.6",
+    "draft-js-alignment-plugin": "^2.0.6",
+    "draft-js-focus-plugin": "^3.0.1",
+    "draft-js-image-plugin": "^2.0.7",
+    "draft-js-inline-toolbar-plugin": "^3.0.1",
+    "draft-js-plugins-editor": "^3.0.0",
+    "draft-js-resizeable-plugin": "^2.0.9",
+    "draft-js-side-toolbar-plugin": "^3.0.2",
+    "history": "^4.10.1",
+    "immutable": "^4.0.0-rc.12",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-grid-layout": "^0.18.3",
+    "react-motion": "^0.5.2",
+    "react-redux": "^7.2.0",
+    "react-router": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-to-print": "^2.9.0",
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3",
+    "redux-wait-for-action": "^0.0.8",
+    "reselect": "^4.0.0",
+    "typescript": "^3.8.3",
+    "uuid": "^8.0.0",
+    "xlsx": "^0.16.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
